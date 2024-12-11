@@ -1,0 +1,56 @@
+/* Basic reset for body and html */
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif; /* Ensuring a clean, modern font is used */
+    background-color: #f0f2f5; /* A soft, light grey background */
+}
+
+/* Styling the main container for proper alignment and distribution */
+.main-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding: 20px;
+}
+
+/* Video container styling */
+.video-container {
+    width: 60%; /* Responsive width */
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2); /* Subtle shadow for depth */
+    border-radius: 8px; /* Rounded corners */
+}
+
+.video-container img {
+    width: 100%; /* Ensures the video fills the container */
+    border-radius: 8px; /* Rounded corners for the video */
+}
+
+/* Information container styling */
+.info-container {
+    margin-left: 20px; /* Spacing between video and info box */
+    background-color: #ffffff; /* Bright, clean background for contrast */
+    padding: 20px;
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2); /* Consistent shadow for depth */
+    width: 35%; /* Increased width to accommodate a larger finger count display */
+}
+
+.info-container h1 {
+    color: #333; /* Dark color for better readability */
+    margin-bottom: 15px; /* Increased space below the headline */
+    font-size: 26px; /* Larger font size for the title */
+}
+
+#finger-count {
+    font-size: 36px; /* Increased font size for better visibility */
+    color: #4a90e2; /* A vibrant blue to make it stand out */
+    padding: 20px; /* Larger padding for a bigger box */
+    text-align: center; /* Centering the count text */
+    border: 2px solid #4a90e2; /* Solid border to enhance visibility */
+    border-radius: 10px; /* Softened corners for aesthetic appeal */
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1); /* Adding depth with a subtle shadow */
+}

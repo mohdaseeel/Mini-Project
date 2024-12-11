@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HandLand Mark Detection</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <div class="main-container">
+        <div class="video-container">
+            <img src="{{ url_for('video_feed') }}" alt="Video Stream">
+        </div>
+        <div class="info-container">
+            <h1>HandLand Mark Detection</h1>
+            <div id="finger-count">Loading...</div>
+        </div>
+    </div>
+    <script>
+        const evtSource = new EventSource("/count");
+        evtSource.onmessage = function(event) {
+            document.getElementById("finger-count").innerHTML = event.data;
+        }
+    </script>
+</body>
+</html>

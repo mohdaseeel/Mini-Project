@@ -8,7 +8,7 @@ Features:
 -Easy-to-use interface for testing and visualization.<br>
 -Built with Python, OpenCV, and MediaPipe.<br>
 
-How to Use:
+How to Use:<br>
 -Clone the repository.<br>
 -Install dependencies from the requirements.txt.<br>
 -Run the Python script to start the real-time detection.<br>

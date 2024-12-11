@@ -4,14 +4,14 @@ This project demonstrates hand landmark detection using OpenCV and MediaPipe. It
 
 Features:
 
--Detects and tracks 21 hand landmarks in real-time.
--Easy-to-use interface for testing and visualization.
--Built with Python, OpenCV, and MediaPipe.
+-Detects and tracks 21 hand landmarks in real-time.<br>
+-Easy-to-use interface for testing and visualization.<br>
+-Built with Python, OpenCV, and MediaPipe.<br>
 
 How to Use:
--Clone the repository.
--Install dependencies from the requirements.txt.
--Run the Python script to start the real-time detection.
+-Clone the repository.<br>
+-Install dependencies from the requirements.txt.<br>
+-Run the Python script to start the real-time detection.<br>
  
 This project is a practical implementation for beginners exploring computer vision and hand gesture recognition systems.
 
